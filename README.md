@@ -65,8 +65,11 @@ All queries use prepared statements with named placeholders, so user input is ne
 
 ## Run Documentation
 
-A screen recording of the website running, where CRUD is tried on both tables, is in the dokumentasi folder.
-Screen record - Screen Recording TP9.mp4
+A screen recording of the website running, where CRUD is tried on both tables, is available on Google Drive.
+
+| Description | Google Drive Link (Screen Recording) |
+|---|---|
+| Demo and Program Flow | https://drive.google.com/file/d/https://drive.google.com/file/d/1AtfV7GzeJMmHN0ciXRZ8RZ3wKUjACWtd/view?usp=sharing/view?usp=sharing |
 
 Candidate list:
 
