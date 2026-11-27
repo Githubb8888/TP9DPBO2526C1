@@ -70,22 +70,22 @@ Screen record - Screen Recording TP9.mp4
 
 Candidate list:
 
-![Candidates](dokumentasi/tampilan_data_kandidat.png)
+![Candidates](TP9DPBO2526C1/dokumentasi/tampilan_data_kandidat.png)
 
 Add candidate:
 
-![Add Candidate](dokumentasi/add_data_kandidat.png)
+![Add Candidate](TP9DPBO2526C1/dokumentasi/add_data_kandidat.png)
 
 Edit candidate:
 
-![Edit Candidate](dokumentasi/edit_data_kandidat.png)
+![Edit Candidate](TP9DPBO2526C1/dokumentasi/edit_data_kandidat.png)
 
 
 Interview schedule list:
 
-![Schedules](dokumentasi/tampilan_data_jadwal.png)
+![Schedules](TP9DPBO2526C1/dokumentasi/tampilan_data_jadwal.png)
 
 
 Edit schedule:
 
-![Edit Schedule](dokumentasi/edit_data_jadwal.png)
+![Edit Schedule](TP9DPBO2526C1/dokumentasi/edit_data_jadwal.png)
