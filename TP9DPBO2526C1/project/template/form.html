@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{JUDUL}}</title>
+<link rel="stylesheet" href="template/style.css">
+</head>
+<body>
+<nav>
+  <a class="active" href="index.php?page=kandidat">Candidates</a>
+  <a href="index.php?page=jadwal">Interview Schedule</a>
+</nav>
+<div class="card form">
+  <h1>{{JUDUL}}</h1>
+  <form method="post" action="index.php?page=kandidat">
+    <input type="hidden" name="action" value="{{MODE}}">
+    <input type="hidden" name="id" value="{{ID}}">
+
+    <label for="nama">Name</label>
+    <input type="text" id="nama" name="nama" value="{{NAMA}}" required>
+
+    <label for="posisi">Applied Position</label>
+    <input type="text" id="posisi" name="posisi" value="{{POSISI}}" required>
+
+    <label for="domisili">City</label>
+    <input type="text" id="domisili" name="domisili" value="{{DOMISILI}}" required>
+
+    <div class="baris">
+      <div>
+        <label for="skorTes">Test Score (0-100)</label>
+        <input type="number" id="skorTes" name="skorTes" min="0" max="100" value="{{SKOR_TES}}" required>
+      </div>
+      <div>
+        <label for="pengalamanTahun">Experience (years)</label>
+        <input type="number" id="pengalamanTahun" name="pengalamanTahun" min="0" value="{{PENGALAMAN}}" required>
+      </div>
+    </div>
+
+    <div class="tombol">
+      <button type="submit" class="btn">Save</button>
+      <a class="btn btn-batal" href="index.php?page=kandidat">Cancel</a>
+    </div>
+  </form>
+</div>
+</body>
+</html>

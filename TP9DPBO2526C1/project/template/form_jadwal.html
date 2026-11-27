@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{JUDUL}}</title>
+<link rel="stylesheet" href="template/style.css">
+</head>
+<body>
+<nav>
+  <a href="index.php?page=kandidat">Candidates</a>
+  <a class="active" href="index.php?page=jadwal">Interview Schedule</a>
+</nav>
+<div class="card form">
+  <h1>{{JUDUL}}</h1>
+  <form method="post" action="index.php?page=jadwal">
+    <input type="hidden" name="action" value="{{MODE}}">
+    <input type="hidden" name="id" value="{{ID}}">
+
+    <label for="kandidat_id">Candidate</label>
+    <select id="kandidat_id" name="kandidat_id" required>
+{{OPSI_KANDIDAT}}
+    </select>
+
+    <label for="pewawancara">Interviewer</label>
+    <input type="text" id="pewawancara" name="pewawancara" value="{{PEWAWANCARA}}" required>
+
+    <div class="baris">
+      <div>
+        <label for="tanggal">Date</label>
+        <input type="date" id="tanggal" name="tanggal" value="{{TANGGAL}}" required>
+      </div>
+      <div>
+        <label for="jam">Time</label>
+        <input type="time" id="jam" name="jam" value="{{JAM}}" required>
+      </div>
+    </div>
+
+    <label for="lokasi">Location</label>
+    <input type="text" id="lokasi" name="lokasi" value="{{LOKASI}}" required>
+
+    <label for="status">Status</label>
+    <select id="status" name="status">
+{{OPSI_STATUS}}
+    </select>
+
+    <div class="tombol">
+      <button type="submit" class="btn">Save</button>
+      <a class="btn btn-batal" href="index.php?page=jadwal">Cancel</a>
+    </div>
+  </form>
+</div>
+</body>
+</html>

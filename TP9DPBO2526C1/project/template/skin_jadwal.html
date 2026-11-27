@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interview Schedule</title>
+<link rel="stylesheet" href="template/style.css">
+</head>
+<body>
+<nav>
+  <a href="index.php?page=kandidat">Candidates</a>
+  <a class="active" href="index.php?page=jadwal">Interview Schedule</a>
+</nav>
+<div class="card">
+  <h1>Interview Schedule</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>No</th><th>Candidate</th><th>Interviewer</th><th>Date</th><th>Time</th><th>Location</th><th>Status</th><th style="text-align:right">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+{{TABLE_ROWS}}
+    </tbody>
+  </table>
+  <div class="footer">
+    <span>Total Schedules: <strong>{{TOTAL_DATA}}</strong></span>
+    <a class="btn" href="index.php?page=jadwal&amp;screen=add">+ Add Schedule</a>
+  </div>
+</div>
+</body>
+</html>
