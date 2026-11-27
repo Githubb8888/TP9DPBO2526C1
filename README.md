@@ -80,22 +80,12 @@ Edit candidate:
 
 ![Edit Candidate](dokumentasi/edit_data_kandidat.png)
 
-Candidate list after delete:
-
-![Delete Candidate](dokumentasi/delete_data_kandidat.png)
 
 Interview schedule list:
 
 ![Schedules](dokumentasi/tampilan_data_jadwal.png)
 
-Add schedule (with the candidate dropdown):
-
-![Add Schedule](dokumentasi/add_data_jadwal.png)
 
 Edit schedule:
 
 ![Edit Schedule](dokumentasi/edit_data_jadwal.png)
-
-Schedule list after delete:
-
-![Delete Schedule](dokumentasi/delete_data_jadwal.png)
