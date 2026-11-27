@@ -69,7 +69,7 @@ A screen recording of the website running, where CRUD is tried on both tables, i
 
 | Description | Google Drive Link (Screen Recording) |
 |---|---|
-| Demo and Program Flow | https://drive.google.com/file/d/https://drive.google.com/file/d/1AtfV7GzeJMmHN0ciXRZ8RZ3wKUjACWtd/view?usp=sharing/view?usp=sharing |
+| Demo and Program Flow | [https://drive.google.com/file/d/https://drive.google.com/file/d/1AtfV7GzeJMmHN0ciXRZ8RZ3wKUjACWtd/view?usp=sharing/view?usp=sharing](https://drive.google.com/file/d/1AtfV7GzeJMmHN0ciXRZ8RZ3wKUjACWtd/view?usp=sharing) |
 
 Candidate list:
 
